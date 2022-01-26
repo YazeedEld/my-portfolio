@@ -8,7 +8,8 @@
 }
 
 .top-row {
-  background: #2980B9;
+  /* background: #2980B9; */
+  background: red;
   font-weight: bold;
   z-index: 0;
 }
