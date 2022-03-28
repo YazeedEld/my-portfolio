@@ -26,11 +26,13 @@
     <div class="container">
       <h1 class="hero-title load-hidden">
         Hello, I'm <span class="text-color-main">Yazeed Eldigair</span>
-        <br /> <span class="text-profession" style="font-size: 50%; text-transform: uppercase; letter-spacing: 4px;"> Full-Stack Developer </span>
+        <br /> <span class="text-profession" style="font-size: 50%; text-transform: uppercase; letter-spacing: 4px;">
+          Full-Stack Developer </span>
       </h1>
       <p class="hero-cta load-hidden">
         <a rel="noreferrer" class="cta-btn cta-btn--hero main-btn" href="#about" style="width:160px">About Me</a>
-        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#projects" style="margin-left: 24px; width: 160px;"> Projects</a>
+        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#projects" style="margin-left: 24px; width: 160px;">
+          Projects</a>
       </p>
     </div>
   </section>
@@ -54,7 +56,8 @@
             </p>
             <p class="about-wrapper__info-text">
               I am an honors graduate with a degree in Computer Engineering.
-              My strongest techincal skills as a web developer are in <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>React.js</b>, <b>React Native</b> & <b>Node.js</b>.
+              My strongest techincal skills as a web developer are in <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>,
+              <b>React.js</b>, <b>React Native</b> & <b>Node.js</b>.
             </p>
             <p class="about-wrapper__info-text">
               I like to spend my spare time working on personal projects and making music.
@@ -86,7 +89,8 @@
                 <p class="mb-4">
                   A <b>single page application</b> that detects faces in image URLs entered by registered users. Using
                   Clarifai's <b>machine
-                  learning API</b>, the locations of the faces in the image are obtained from the response. Bounding boxes
+                    learning API</b>, the locations of the faces in the image are obtained from the response. Bounding
+                  boxes
                   are drawn around the faces after further calcluations. User profiles are updated upon each image
                   entry.
 
@@ -135,7 +139,9 @@
               <h3 class="project-wrapper__text-title">Company Website (Frontend)</h3>
               <div>
                 <p class="mb-4">
-                  A <b>fully responsive</b> and mobile-friendly company website built using <b>React</b>. The code utilizes <b>efficient</b> and <b>reusable components</b> to easily add sections of content to the website.
+                  A <b>fully responsive</b> and mobile-friendly company website built using <b>React</b>. The code
+                  utilizes <b>efficient</b> and <b>reusable components</b> to easily add sections of content to the
+                  website.
               </div>
 
               <ul class="list-group">
@@ -174,13 +180,63 @@
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">COVID-19 Social Distance Monitoring System</h3>
+              <div>
+                <p class="mb-4">
+                  <b>MATLAB</b>-based <b>computer vision</b> system that takes pedestrian surveillance footage and maps
+                  it to a bird’s eye view of the scene with social distance violators flagged. The system uses an
+                  <b>adaptive background modelling</b> technique.
+              </div>
+
+              <ul class="list-group">
+                <li class="list-group-item top-row">What's under the hood?</li>
+                <li class="grow list-group-item">MATLAB</li>
+                <li class="grow list-group-item">Computer vision</li>
+                <li class="grow list-group-item">Adaptive background modelling</li>
+              </ul>
+
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              
+    
+                <div>
+                  <!-- <img alt="Project Image" class="img-fluid" src="assets/cv-demo-vid.mp4" /> -->
+                  <video width="100%" height="auto" controls>
+                    <source src="assets/cv-demo-vid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              
+              <div class='ref-btns'>
+                <!-- <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/resume.pdf">
+                  View Resume
+                </a> -->
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                  href="assets/social-distance-monitor.pdf">
+                  View Paper
+                </a>
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                  href="https://github.com/YazeedEld/covid19-social-distance-monitoring">
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
               <h3 class="project-wrapper__text-title">LinkedIn Profile Scraper</h3>
               <div>
                 <p class="mb-4">
-                  A <b>Google Chrome extension</b> that extracts information from <b>LinkedIn profiles</b>. Data from the
-                  profiles is read by the extension and sent to a local <b>Node.js</b> sever. The server reads the data,
-                  represented as an <i>array of objects</i>, and <b>SheetJS</b> to export the data in a table format to an
-                  Excel workbook.
+                  A <b>Google Chrome extension</b> that extracts information from <b>LinkedIn profiles</b>. Data from
+                  the
+                  profiles is read by the extension and sent to a local <b>Node.js</b> server. The server uses
+                  <b>SheetJS</b> to export the data in a table format to an Excel workbook.
               </div>
               <ul class="list-group">
                 <li class="list-group-item top-row">What's under the hood?</li>
@@ -216,7 +272,9 @@
               <h3 class="project-wrapper__text-title">Real-Estate Mobile App (Full-Stack)</h3>
               <div>
                 <p class="mb-4">
-                  A <b>full-stack mobile app</b> that allows registerd user to sign-in and view a catalogue of properties. Built using <b>React Native</b> for the frontend and <b>PHP</b> for the backend while utlizing the <b>Expo</b> open-source platform.
+                  A <b>full-stack mobile app</b> that allows registerd user to sign-in and view a catalogue of
+                  properties. Built using <b>React Native</b> for the frontend and <b>PHP</b> for the backend while
+                  utlizing the <b>Expo</b> open-source platform.
               </div>
               <ul class="list-group">
                 <li class="list-group-item top-row">What's under the hood?</li>
@@ -245,14 +303,18 @@
           </div>
         </div>
         <!-- /END Project -->
-        
+
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text load-hidden">
               <h3 class="project-wrapper__text-title">Reacher - AI Robot Teacher</h3>
               <div>
                 <p class="mb-4">
-                  Reacher is an <b>AI & computer-vision</b> based <b>teaching assistant robot</b>  that primarily consists of 5 subsystems: <b>(a)</b> an autonomous navigation subsystem for exam proctoring, <b>(b)</b> a trained LSTM model for cheating detection, <b>(c)</b> a contactless CV-based exam paper scanning subsystem, <b>(d)</b> a human-robot voice interaction subsystem, <b>(e)</b> and an academic content personalization subsystem.
+                  Reacher is an <b>AI & computer-vision</b> based <b>teaching assistant robot</b> that primarily
+                  consists of 5 subsystems: <b>(a)</b> an autonomous navigation subsystem for exam proctoring,
+                  <b>(b)</b> a trained LSTM model for cheating detection, <b>(c)</b> a contactless CV-based exam paper
+                  scanning subsystem, <b>(d)</b> a human-robot voice interaction subsystem, <b>(e)</b> and an academic
+                  content personalization subsystem.
               </div>
               <ul class="list-group">
                 <li class="list-group-item top-row">What's under the hood?</li>
@@ -268,7 +330,7 @@
           </div>
           <div class="col-lg-8 col-sm-12">
             <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="https://www.mdpi.com/2076-3417/11/21/10449/pdf" target="_blank">
+              <a rel="noreferrer" href="assets/towards-contactless-learning.pdf" target="_blank">
                 <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
                   class="thumbnail rounded js-tilt">
                   <img alt="Project Image" class="img-fluid" src="assets/proj3.jpg" />
@@ -276,19 +338,19 @@
               </a>
               <div class='ref-btns'>
                 <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                  href="https://docs.google.com/presentation/d/19_KQRlV_1pFvUAXrw6v5POabH7Pxu2oW/edit?usp=sharing&ouid=111195381961366563965&rtpof=true&sd=true">
-                  Presentation
+                  href="assets/towards-contactless-learning.pdf">
+                  View Publication
                 </a>
                 <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
-                  href="https://www.mdpi.com/2076-3417/11/21/10449/pdf">
-                  Publication
+                  href="https://docs.google.com/presentation/d/19_KQRlV_1pFvUAXrw6v5POabH7Pxu2oW/edit?usp=sharing&ouid=111195381961366563965&rtpof=true&sd=true">
+                  Presentation
                 </a>
               </div>
             </div>
           </div>
         </div>
         <!-- /END Project -->
-        
+
         <!-- <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text load-hidden">
@@ -338,7 +400,8 @@
       <h2 class="section-title">Contact</h2>
       <div class="contact-wrapper load-hidden">
         <p class="contact-wrapper__text">For inquires: <br> yazeed.eldigair@gmail.com</p>
-        <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:yazeed.eldigair@gmail.com">Call to
+        <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:yazeed.eldigair@gmail.com">Call
+          to
           Action</a>
       </div>
     </div>
